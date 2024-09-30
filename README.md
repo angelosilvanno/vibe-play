@@ -43,4 +43,4 @@ Para instalar e executar o VibePlay, você precisa:
 
 ## 📄 Licença
 
-* Esse projeto está sob a licença MIT - acesse os detalhes em [LICENSE.md](https://github.com/angelodesenvolvedor/verificador-de-palindromos/blob/main/LICENSE).
+* Esse projeto está sob a licença MIT - acesse os detalhes em [LICENSE.md](https://github.com/angelodesenvolvedor/vibe-play?tab=MIT-1-ov-file).
