@@ -1,4 +1,4 @@
-# VibePlay: Player de Música Interativo
+# VibePlay
 
 Uma aplicação web interativa para reprodução de música, com recursos como controle de volume, busca por músicas, navegação por gêneros e informações sobre artistas.
 
