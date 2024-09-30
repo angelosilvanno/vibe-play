@@ -1,52 +1,44 @@
-# VibePlay
+# VibePlay: Player de Música Interativo
 
-Uma plataforma de streaming de música interativa.
+Uma aplicação web interativa para reprodução de música, com recursos como controle de volume, busca por músicas, navegação por gêneros e informações sobre artistas.
 
 ## 🔥 Introdução
+O **VibePlay** é um projeto desenvolvido como parte da Tarefa 03 da disciplina de **Multimídia** do curso de **Bacharelado em Tecnologia da Informação**. O objetivo é criar um player de música intuitivo e amigável, que permita ao usuário:
 
-VibePlay é uma aplicação web que permite aos usuários explorar diferentes gêneros musicais, buscar artistas e músicas, e criar playlists personalizadas. O objetivo deste projeto é proporcionar uma experiência fluida e intuitiva para os amantes da música.
+- **Reproduzir músicas**: Selecionar músicas de uma lista e controlá-las com botões de play, pause, avançar e retroceder.
+- **Controlar o volume**: Ajuste individual do volume para cada música.
+- **Buscar por músicas**: Filtrar músicas por nome e navegar por gêneros.
+- **Obter informações sobre artistas**: Ao clicar no nome de um artista, o usuário acessa uma pequena biografia.
 
 ## ⚙️ Pré-requisitos
+Para instalar e executar o VibePlay, você precisa:
 
-Para instalar o projeto, siga os passos abaixo:
+- **Node.js e npm**: Baixe e instale a versão mais recente do Node.js em [nodejs.org](https://nodejs.org/). O npm (Node Package Manager) é instalado automaticamente com o Node.js.
+- **Git**: Baixe e instale o Git em [git-scm.com](https://git-scm.com/).
 
-1. **Clone este repositório:**
+## 🔨 Guia de Instalação
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/angelodesenvolvedor/VibePlay.git
+   git clone https://github.com/seu-usuario/vibeplay.git
    ```
-
-2. **Navegue até a pasta do projeto:**
+2. Acesse o diretório do projeto:
    ```bash
-   cd VibePlay
+   cd vibeplay
    ```
-
-3. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
-
-4. **Execute a aplicação:**
+3. Inicie o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
 
-### Exemplos
-
-[Inclua exemplos ou screenshots aqui, se necessário.]
-
-## 📦 Tecnologias usadas
-
-- Next.js
-- React
-- CSS
-- HTML
-
-[Link para pegar as badges](https://github.com/Ileriayo/markdown-badges)
+## 📦 Tecnologias Utilizadas
+- **Next.js**
+- **React**
+- **React Icons**
+- **Context API**
+- **CSS**
 
 ## 👷 Autores
-
-- Angelo Silvano - Desenvolvedor - @angelodesenvolvedor
+- **Ângelo Silvano** - Desenvolvimento da aplicação - [@angelodesenvolvedor](#)
 
 ## 📄 Licença
-
-Esse projeto está sob a licença [nome da licença] - acesse os detalhes em LICENSE.md.
+Este projeto está licenciado sob a **MIT License**. Confira os detalhes em **LICENSE.md**.
