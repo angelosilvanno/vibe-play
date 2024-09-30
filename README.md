@@ -19,7 +19,7 @@ Para instalar e executar o VibePlay, você precisa:
 ## 🔨 Guia de Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/vibeplay.git
+   git clone https://github.com/angelodesenvolvedor/vibe-play.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
