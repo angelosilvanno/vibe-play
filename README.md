@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VibePlay: Player de Música Interativo
 
-## Getting Started
+Uma aplicação web interativa para reprodução de música, com recursos como controle de volume, busca por músicas, navegação por gêneros e informações sobre artistas.
 
-First, run the development server:
+## 🔥 Introdução
+O **VibePlay** é um projeto desenvolvido como parte da Tarefa 03 da disciplina de **Multimídia** do curso de **Bacharelado em Tecnologia da Informação**. O objetivo é criar um player de música intuitivo e amigável, que permita ao usuário:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Reproduzir músicas**: Selecionar músicas de uma lista e controlá-las com botões de play, pause, avançar e retroceder.
+- **Controlar o volume**: Ajuste individual do volume para cada música.
+- **Buscar por músicas**: Filtrar músicas por nome e navegar por gêneros.
+- **Obter informações sobre artistas**: Ao clicar no nome de um artista, o usuário acessa uma pequena biografia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Pré-requisitos
+Para instalar e executar o VibePlay, você precisa:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js e npm**: Baixe e instale a versão mais recente do Node.js em [nodejs.org](https://nodejs.org/). O npm (Node Package Manager) é instalado automaticamente com o Node.js.
+- **Git**: Baixe e instale o Git em [git-scm.com](https://git-scm.com/).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔨 Guia de Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/vibeplay.git
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd vibeplay
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
-## Learn More
+## 📦 Tecnologias Utilizadas
+- **Next.js**
+- **React**
+- **React Icons**
+- **Context API**
+- **CSS**
 
-To learn more about Next.js, take a look at the following resources:
+## 👷 Autores
+- **Ângelo Silvano** - Desenvolvimento da aplicação - [@angelodesenvolvedor](#)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Licença
+Este projeto está licenciado sob a **MIT License**. Confira os detalhes em **LICENSE.md**.
