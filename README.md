@@ -1,4 +1,4 @@
-# VibePlay: Player de Música Interativo
+# VibePlay
 
 Uma aplicação web interativa para reprodução de música, com recursos como controle de volume, busca por músicas, navegação por gêneros e informações sobre artistas.
 
@@ -19,7 +19,7 @@ Para instalar e executar o VibePlay, você precisa:
 ## 🔨 Guia de Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/vibeplay.git
+   git clone https://github.com/angelodesenvolvedor/vibe-play.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
@@ -31,14 +31,16 @@ Para instalar e executar o VibePlay, você precisa:
    ```
 
 ## 📦 Tecnologias Utilizadas
-- **Next.js**
-- **React**
-- **React Icons**
-- **Context API**
-- **CSS**
+- **Next.js** - Framework para desenvolvimento web baseado em React, ideal para aplicações de página única e renderização do lado do servidor (SSR).
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Icons** - Biblioteca para inclusão de ícones em componentes React.
+- **Context API** - Mecanismo nativo do React para gerenciar estados globais na aplicação.
+- **CSS** - Usado para a estilização e layout da interface do usuário.
 
-## 👷 Autores
-- **Ângelo Silvano** - Desenvolvimento da aplicação - [@angelodesenvolvedor](#)
+## 👷 Autor
+
+* **Ângelo Silvano** - *Front-End Developer* - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
 
 ## 📄 Licença
-Este projeto está licenciado sob a **MIT License**. Confira os detalhes em **LICENSE.md**.
+
+* Esse projeto está sob a licença MIT - acesse os detalhes em [LICENSE.md](https://github.com/angelodesenvolvedor/vibe-play?tab=MIT-1-ov-file).
