@@ -5,10 +5,9 @@ import Image from 'next/image';
 import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute, FaForward, FaBackward, FaGithub, FaLinkedin } from 'react-icons/fa'; 
 import { HomeContext } from './context/HomeContext';
 import { musics, Music } from './dados/music';
-import { useRouter } from 'next/navigation';
 
 const Home: React.FC = () => {
-  const router = useRouter();
+  
   const context = useContext(HomeContext);
 
   if (!context) {
