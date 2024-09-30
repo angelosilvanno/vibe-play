@@ -37,8 +37,10 @@ Para instalar e executar o VibePlay, você precisa:
 - **Context API**
 - **CSS**
 
-## 👷 Autores
-- **Ângelo Silvano** - Desenvolvimento da aplicação - [@angelodesenvolvedor](#)
+## 👷 Autor
+
+* **Ângelo Silvano** - *Front-End Developer* - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
 
 ## 📄 Licença
-Este projeto está licenciado sob a **MIT License**. Confira os detalhes em **LICENSE.md**.
+
+* Esse projeto está sob a licença MIT - acesse os detalhes em [LICENSE.md](https://github.com/angelodesenvolvedor/verificador-de-palindromos/blob/main/LICENSE).
