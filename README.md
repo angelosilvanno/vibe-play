@@ -31,11 +31,11 @@ Para instalar e executar o VibePlay, você precisa:
    ```
 
 ## 📦 Tecnologias Utilizadas
-- **Next.js**
-- **React**
-- **React Icons**
-- **Context API**
-- **CSS**
+- **Next.js** - Framework para desenvolvimento web baseado em React, ideal para aplicações de página única e renderização do lado do servidor (SSR).
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Icons** - Biblioteca para inclusão de ícones em componentes React.
+- **Context API** - Mecanismo nativo do React para gerenciar estados globais na aplicação.
+- **CSS** - Usado para a estilização e layout da interface do usuário.
 
 ## 👷 Autor
 
