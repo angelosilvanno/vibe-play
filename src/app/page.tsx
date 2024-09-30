@@ -273,9 +273,9 @@ const Home: React.FC = () => {
           </ul>
 
           {/* Conteúdo da aba ativa */}
-          {activeGenre && (
-            <div className="music-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {musicByGenre[activeGenre].map((music) => (
+          {activeGenre && musicByGenre[activeGenre] && ( // Adicione essas condições
+          <div className="music-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {musicByGenre[activeGenre].map((music) => (
                 <div
                   key={music.id}
                   className="music-card relative p-6 border border-gray-700 rounded-lg cursor-pointer transition-transform transform hover:scale-105 flex flex-col justify-between"
