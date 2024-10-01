@@ -87,9 +87,15 @@ const Home: React.FC = () => {
       }
 
       setSelectedMusic(musicId);
+       // **Atualizar o gênero ativo quando a música é clicada**
+       const selectedMusicObj = musics.find((m) => m.id === musicId);
+      if (selectedMusicObj) {
+       setActiveGenre(selectedMusicObj.genre);
+      }
     }
   };
 
+  
   const handleVolumeChange = (musicId: number, e: React.FormEvent<HTMLInputElement>) => { 
     const newVolume = Number(e.currentTarget.value);
     setVolumeLevels((prev) => ({ ...prev, [musicId]: newVolume }));
@@ -123,18 +129,18 @@ const Home: React.FC = () => {
   };
 
   const handleBackward = () => {
-    if (selectedMusic !== null) {
-      const currentIndex = musics.findIndex((m) => m.id === selectedMusic);
-      const previousIndex = (currentIndex - 1 + musics.length) % musics.length;
-      setSelectedMusic(musics[previousIndex].id);
+    if (selectedMusic !== null && activeGenre !== null) {
+      const musicIndex = musicByGenre[activeGenre].findIndex((m) => m.id === selectedMusic);
+      const previousIndex = (musicIndex - 1 + musicByGenre[activeGenre].length) % musicByGenre[activeGenre].length; // Calcula o índice da música anterior
+      setSelectedMusic(musicByGenre[activeGenre][previousIndex].id); // Seleciona a música anterior do gênero
     }
   };
 
   const handleForward = () => {
-    if (selectedMusic !== null) {
-      const currentIndex = musics.findIndex((m) => m.id === selectedMusic);
-      const nextIndex = (currentIndex + 1) % musics.length;
-      setSelectedMusic(musics[nextIndex].id);
+    if (selectedMusic !== null && activeGenre !== null) {
+      const musicIndex = musicByGenre[activeGenre].findIndex((m) => m.id === selectedMusic);
+      const nextIndex = (musicIndex + 1) % musicByGenre[activeGenre].length; // Calcula o índice da próxima música dentro do gênero
+      setSelectedMusic(musicByGenre[activeGenre][nextIndex].id); // Seleciona a próxima música do gênero
     }
   };
 
