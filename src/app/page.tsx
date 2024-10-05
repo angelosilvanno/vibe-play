@@ -205,7 +205,7 @@ const Home: React.FC = () => {
           )}
           {/* Exibindo os ícones de gênero na tela inicial */}
           {!activeGenre && (
-            <div className="grid grid-cols-3 gap-8 mb-8"> {/* Usando grid para melhor organização */}
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8"> {/* Usando grid para melhor organização */}
               <div className="flex flex-col items-center justify-center">
                 {/* <FaMusic className="text-6xl text-green-500" />  */}
               </div>
