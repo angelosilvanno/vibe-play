@@ -287,7 +287,7 @@ const Home: React.FC = () => {
                   className="music-card relative p-6 border border-gray-700 rounded-lg cursor-pointer transition-transform transform hover:scale-105 flex flex-col justify-between"
                   onClick={() => handleMusicClick(music.id)}
                 >
-                  <div className="relative w-full h-48 rounded-lg overflow-hidden">
+                  <div className="relative w-full  h-32 md:h-48 rounded-lg overflow-hidden">
                     {/* <Image
                       src={music.image}
                       alt={music.name}
