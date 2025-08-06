@@ -458,7 +458,7 @@ const Home: React.FC = () => {
           <p className="text-sm mb-2">© {new Date().getFullYear()} Desenvolvido por Ângelo Silvano</p>
           <div className="flex justify-center space-x-4">
             <a
-              href="https://github.com/angelodesenvolvedor"
+              href="https://github.com/angelosilvanno"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-gray-400 hover:text-gray-300 transition-colors duration-300"
