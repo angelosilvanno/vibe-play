@@ -39,8 +39,8 @@ Para instalar e executar o VibePlay, você precisa:
 
 ## 👷 Autor
 
-* **Ângelo Silvano** - *Front-End Developer* - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
+* **Ângelo Silvano** - *Front-End Developer* - [@angelosilvanno](https://github.com/angelosilvanno)
 
 ## 📄 Licença
 
-* Esse projeto está sob a licença MIT - acesse os detalhes em [LICENSE.md](https://github.com/angelodesenvolvedor/vibe-play?tab=MIT-1-ov-file).
+* Esse projeto está sob a licença MIT - acesse os detalhes em [LICENSE.md](https://github.com/angelosilvanno/vibe-play?tab=MIT-1-ov-file).
